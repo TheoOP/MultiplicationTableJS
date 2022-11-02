@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>  
+    <!-- Input form to prompt user  -->
+    <div id="container" class="container">
+        <div class="formHolder">
+            <div id="error"></div>
+            <form id="inputForm">
+                <label for="mincol">Minimum Column Value:</label><br>
+                <input type="text" id="mincol" name="mincol" required autofocus><br>
+                <label for="maxcol">Maximum Column Value:</label><br>
+                <input type="text" id="maxcol" name="maxcol" required><br>
+                <label for="minrow">Minimum Row Value:</label><br>
+                <input type="text" id="minrow" name="minrow" required><br>
+                <label for="maxrow">Maximum Row Value:</label><br>
+                <input type="text" id="maxrow" name="maxrow" required><br>
+                <input type="submit">
+            </form>
+        </div>
+        <div class="tableHolder" id="tableHolder">
+            <table id="multTable">
+            </table>
+        </div>
+    </div>
+<script src="/js/script.js"></script>
+</body>
+</html>
